@@ -55,6 +55,9 @@
     this._attachListeners();
   }
 
+  /**
+  * Update table data model function.
+  */
   GameOfLife.prototype._updateTable = function() {
     for (var i = 0; i < NUMBER_OF_ROWS; i++) {
       for (var j = 0; j < NUMBER_OF_COLUMNS; j++) {
